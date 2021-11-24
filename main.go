@@ -7,7 +7,7 @@ func IsSameValue(a interface{}, b interface{}) bool {
 	return false
 }
 
-func SliceContainsInt(s []int, e int) bool {
+func IntSliceContains(s []int, e int) bool {
 	for _, a := range s {
 		if a == e {
 			return true
