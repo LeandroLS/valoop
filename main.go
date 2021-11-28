@@ -1,10 +1,7 @@
 package valoop
 
 func IsSameValue(a interface{}, b interface{}) bool {
-	if a == b {
-		return true
-	}
-	return false
+	return a == b
 }
 
 func IntSliceContains(s []int, e int) bool {
