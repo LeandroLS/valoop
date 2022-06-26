@@ -14,3 +14,13 @@ func IntSliceContains(s []int, e int) bool {
 	}
 	return false
 }
+
+// StrSliceContains check if str slice s contains str e
+func StrSliceContains(s []string, e string) bool {
+	for _, a := range s {
+		if a == e {
+			return true
+		}
+	}
+	return false
+}
